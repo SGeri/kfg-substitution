@@ -56,7 +56,7 @@ async function sendNotification(sclass) {
 
   const headers = {
     "Content-Type": "application/json; charset=utf-8",
-    Authorization: `Basic MmE0NjUyMWMtMDAzYy00YjRmLWJiMmQtNzY3MDc1YjEyMGRi`,
+    Authorization: `Basic ***`,
   };
 
   let response = await fetch("https://onesignal.com/api/v1/notifications", {
