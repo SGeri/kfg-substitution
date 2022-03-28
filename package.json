@@ -6,12 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "ngrok": "ngrok http 3000"
   },
   "dependencies": {
+    "@mantine/core": "^4.0.7",
+    "@mantine/hooks": "^4.0.7",
+    "@mantine/modals": "^4.0.8",
+    "html-table-to-json": "^1.0.0",
     "next": "12.1.0",
+    "node-fetch": "^3.2.3",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-feather": "^2.0.9"
   },
   "devDependencies": {
     "eslint": "8.11.0",
