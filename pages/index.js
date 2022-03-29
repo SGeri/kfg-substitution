@@ -261,6 +261,7 @@ export default function Home(props) {
           class={s["Oszt."]}
           time={s["Óra"]}
           subject={s["Tárgy"]}
+          classroom={s["Terem"]}
           teacher={s["Helyettesítendő tanár"]}
           substitutor={s["Helyettesítő tanár"]}
           message={s["Megjegyzés"]}
@@ -383,6 +384,14 @@ function SubstitutionCard(props) {
       </Container>
       <Text size="xl" weight={500} mt="md">
         {props.time}. óra - {props.subject}
+      </Text>
+      <Text size="sm" mt="sm" color="dimmed">
+        {props.classroom && (
+          <>
+            Terem: {props.classroom}
+            <br />
+          </>
+        )}
       </Text>
       <Text size="sm" mt="sm" color="dimmed">
         {props.substitutor && (
