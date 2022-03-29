@@ -150,9 +150,10 @@ export default function Home(props) {
                 !
               </ThemeIcon>
               <Group direction="column" spacing={0}>
-                <Text weight="bold">IOS támogatás</Text>
+                <Text weight="bold">Böngésző / IOS támogatás</Text>
                 <Text>
-                  Jelenleg IOS platformon nem lehetséges a böngésző értesítések
+                  Jelenleg IOS platformon és bizonyos böngészőkben (Chrome
+                  használata ajánlott!) nem lehetséges a böngésző értesítések
                   megjelenítése.
                 </Text>
               </Group>
