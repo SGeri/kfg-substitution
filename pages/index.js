@@ -63,7 +63,6 @@ export default function Home(props) {
           title: "KFG Helyettesítések",
           message: "Sikeresen engedélyezted az értesítéseket!",
         },
-        prompt,
       });
     });
   };
