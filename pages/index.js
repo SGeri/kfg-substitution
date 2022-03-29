@@ -294,6 +294,8 @@ export default function Home(props) {
           style={{
             width: "100%",
             display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
             justifyContent: "center",
           }}
         >
@@ -301,8 +303,8 @@ export default function Home(props) {
             label={today ? "Ma" : "Holnap"}
             size="md"
             color="indigo"
-            mr={10}
             onChange={onChangeDay}
+            mb={15}
           />
 
           <Button
@@ -310,9 +312,8 @@ export default function Home(props) {
             color="indigo"
             radius="xl"
             size="md"
-            sx={{ width: "60%", maxWidth: 260 }}
+            sx={{ width: "60%", minWidth: 200, maxWidth: 260 }}
             onClick={setNotifications}
-            ml={10}
           >
             Kérek értesítéseket!
           </Button>
