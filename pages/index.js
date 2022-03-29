@@ -59,6 +59,11 @@ export default function Home(props) {
         appId: "66b6d47f-b3bd-4793-904b-e4c85943b78f",
         safari_web_id:
           "web.onesignal.auto.19aac151-6a52-4f31-b603-0bf7908b06b4",
+        welcomeNotification: {
+          title: "KFG Helyettesítések",
+          message: "Sikeresen engedélyezted az értesítéseket!",
+        },
+        prompt,
       });
     });
   };
